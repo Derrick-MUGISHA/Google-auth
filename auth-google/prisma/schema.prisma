@@ -1,4 +1,4 @@
-generator Client {
+`generator Client {
     provider = "prisma-client-js"
 }
 
@@ -15,3 +15,4 @@ model User {
     createdAt DateTime    @default(now())
     updatedAt DateTime    @updatedAt
 }
+`
